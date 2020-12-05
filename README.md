@@ -72,7 +72,7 @@ Start XCSoar and configure devices (config > devices). Select a device and press
 
 
 
-If the device says CONNECTED FLARM, everything is connected properly. 
+If the device says CONNECTED FLARM, everything is connected properly.   
   ![](images/image8.png)
 
 If you want, you can see the traffic data in NMEA coming in by pressing MONITOR to see the PFLAU and PFLAA sentences. PFLAU is the heartbeat with PFLAA containing traffic data.  
