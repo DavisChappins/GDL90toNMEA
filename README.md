@@ -54,6 +54,7 @@ Connect your android phone to the Stratux wifi network
 
 Open a browser and go to 192.168.10.1 the Stratux home page and verify it is receiving 1090 or 978 traffic information and there is a valid GPS fix. The python script cannot pass traffic to XCSoar when it does not have any traffic to pass on.
 
+  ![](images/image1.png)
 
 ### Step 5
 Open QPython 3L, tap “Programs” then tap “GDL90toNMEAforStratuxAHRS_TrafficWarning” then tap “Run”. QPython3L will run the script and display the python console.
