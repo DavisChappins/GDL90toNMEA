@@ -38,11 +38,11 @@ It should look like this:
 ![](images/image10.png)
 
 
-With the USB still connected, download the pynmea2 folder and unzip it. Place the entire pynmea2 folder onto your phone at qpython\lib\python3.6\site-packages. This provides the necessary libraries so that python can encode NMEA sentences. If you do not see the QPython folder, you may need to run a script within the QPython 3L application first. On my phone there are two “site-packages” folders with the same name. Not knowing which does what I put the pynmea2 folder in both. You may not have two.
-You may have to create the folders called “lib” and “python3.6” and “site-packages”.
+With the USB still connected, download the pynmea2 folder and unzip it. Place the entire pynmea2 folder onto your phone at qpython\lib\python3.6\site-packages. This provides the necessary libraries so that python can encode NMEA sentences. If you haven't run any scripts or installed any packages with "pip install" yet, you will not have any of these folders. You will have to create the folders called “lib” and “python3.6” and “site-packages” to create the following folder structure: \lib\python3.6\site-packages and place pynmea2 in site-packages.
 It should look like this:
+![](images/image3.png)
 
-
+Pynmea2 is taken from https://github.com/Knio/pynmea2 with some FLARM specific additions.
 
 Unplug your android phone from the computer.
 
