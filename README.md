@@ -57,7 +57,7 @@ Open a browser and go to 192.168.10.1 the Stratux home page and verify it is rec
   ![](images/image1.png)
 
 ### Step 5
-Open QPython 3L, tap “Programs” then tap “GDL90toNMEAforStratuxAHRS_TrafficWarning” then tap “Run”. QPython3L will run the script and display the python console.
+Open QPython 3L, tap “Programs” then tap “GDL90toNMEAforStratuxAHRS_TrafficWarning” then tap “Run”. QPython3L will run the script and display the python console.  
   ![](images/image11.PNG)
 
 
