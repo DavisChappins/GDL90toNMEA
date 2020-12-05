@@ -84,12 +84,12 @@ Traffic should be displayed on XCSoar’s map page. If you zoom out too far all 
 
 
 ## Troubleshooting
-If you press MONITOR and do not see PFLAU, something has gone wrong:
-Check to see that FLARM on UDP port 10110 is a device in XCSoar and is enabled. If it says “No data” instead of “Connected”, check to see if the script is running.
-Check QPython 3L to verify the script is still running and has not encountered an error
-Check the android wifi settings to verify connection to the Stratux wifi network
-Check Stratux at 192.168.10.1 in a browser to verify the Stratux box is operating correctly
-There is an error that occurs with the script on startup sometimes, where traffic is detected before own ship altitude. If this occurs click on the x in the top left of the python console then close it, and re-run the script.
+If you press MONITOR and do not see PFLAU, something has gone wrong:  
+Check to see that FLARM on UDP port 10110 is a device in XCSoar and is enabled. If it says “No data” instead of “Connected”, check to see if the script is running.  
+Check QPython 3L to verify the script is still running and has not encountered an error  
+Check the android wifi settings to verify connection to the Stratux wifi network  
+Check Stratux at 192.168.10.1 in a browser to verify the Stratux box is operating correctly  
+There is an error that occurs with the script on startup sometimes, where traffic is detected before own ship altitude. If this occurs click on the x in the top left of the python console then close it, and re-run the script.  
 
 
 
