@@ -27,7 +27,7 @@ Working knowledge of a Stratux device (http://192.168.10.1/ when connected to th
 
 
 
-Steps:
+Steps:  
 Install QPython 3L through the Google Play store. This allows python to natively run on android.
 https://play.google.com/store/apps/details?id=org.qpython.qpy3&hl=en_US&gl=US
 
