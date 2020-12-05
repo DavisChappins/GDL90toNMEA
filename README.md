@@ -6,11 +6,11 @@ Stratux or similar devices output traffic in the GDL 90 format. XCSoar receives 
 
 This python script decodes GDL 90, manages a traffic list, and outputs that traffic list in NMEA.
 
-Once installed, configured, and running correctly, the normal steps to operate are simply:
-Start android phone
-Connect android to Stratux wifi network
-Open QPython3L, run the script
-Open XCSoar
+Once installed, configured, and running correctly, the normal steps to operate are simply:  
+Start android phone  
+Connect android to Stratux wifi network  
+Open QPython3L, run the script  
+Open XCSoar  
 
 
 ## Items required:  
