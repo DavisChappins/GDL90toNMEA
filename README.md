@@ -31,6 +31,7 @@ https://play.google.com/store/apps/details?id=org.qpython.qpy3&hl=en_US&gl=US
 
 ![](images/image5.png)
 
+### Step 2
 Connect your android phone to a computer via USB and navigate to your phone as a USB drive then qpython\scripts3. Place GDL90toNMEAforStratuxAHRS_TrafficWarning.py here. This is the script that you’ll run.
 It should look like this:
 ![](images/image10.png)
