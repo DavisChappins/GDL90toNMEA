@@ -15,15 +15,14 @@ Open QPython3L, run the script
 Open XCSoar
 
 
-Items required:
-
-Android phone with XCSoar
-Stratux or similar GDL 90 ADS-B receiver
-QPython 3L installed from Google Play Store
-Python script (provided)
-Pynmea2 folder (provided)
-Working knowledge of XCSoar and adding devices
-Working knowledge placing files in your android phone via USB connected to a computer
+Items required: 
+Android phone with XCSoar 
+Stratux or similar GDL 90 ADS-B receiver 
+QPython 3L installed from Google Play Store 
+Python script (provided)  
+Pynmea2 folder (provided)  
+Working knowledge of XCSoar and adding devices  
+Working knowledge placing files in your android phone via USB connected to a computer  
 Working knowledge of a Stratux device (http://192.168.10.1/ when connected to the Stratux wifi)
 
 
