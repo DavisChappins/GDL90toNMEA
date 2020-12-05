@@ -62,12 +62,12 @@ Open QPython 3L, tap “Programs” then tap “GDL90toNMEAforStratuxAHRS_Traffi
 
 
 
-Verify the script is running, QPython 3L will print some messages on the screen notifying you to start XCSoar. This may take up to a minute for it to start running, no idea why. Sometimes it starts up immediately.
+Verify the script is running, QPython 3L will print some messages on the screen notifying you to start XCSoar. This may take up to a minute for it to start running, no idea why. Sometimes it starts up immediately.  
   ![](images/image6.png)
 
 
 ### Step 6
-Start XCSoar and configure devices (config > devices). Select a device and press EDIT. Choose PORT as UDP Port. Choose TCP Port as 10110. Choose Driver as FLARM. This configures XCSoar to listen to the NMEA output of the python script on UDP port 10110.
+Start XCSoar and configure devices (config > devices). Select a device and press EDIT. Choose PORT as UDP Port. Choose TCP Port as 10110. Choose Driver as FLARM. This configures XCSoar to listen to the NMEA output of the python script on UDP port 10110.  
   ![](images/image2.png)
 
 
