@@ -1,6 +1,4 @@
 # GDL90toNMEA
-translates GDL90 to NMEA to connect a Stratux to XCSoar
-
 
 This document describes how to install the necessary components required to use a Stratux or similar ADS-B receiver with XCSoar.
 
@@ -15,7 +13,7 @@ Open QPython3L, run the script
 Open XCSoar
 
 
-Items required:  
+## Items required:  
 Android phone with XCSoar  
 Stratux or similar GDL 90 ADS-B receiver  
 QPython 3L installed from Google Play Store  
