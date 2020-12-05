@@ -15,10 +15,10 @@ Open QPython3L, run the script
 Open XCSoar
 
 
-Items required: 
-Android phone with XCSoar 
-Stratux or similar GDL 90 ADS-B receiver 
-QPython 3L installed from Google Play Store 
+Items required:  
+Android phone with XCSoar  
+Stratux or similar GDL 90 ADS-B receiver  
+QPython 3L installed from Google Play Store  
 Python script (provided)  
 Pynmea2 folder (provided)  
 Working knowledge of XCSoar and adding devices  
