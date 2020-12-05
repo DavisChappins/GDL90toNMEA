@@ -36,7 +36,7 @@ Connect your android phone to a computer via USB and navigate to your phone as a
 It should look like this:
 ![](images/image10.png)
 
-
+### Step 3
 With the USB still connected, download the pynmea2 folder and unzip it. Place the entire pynmea2 folder onto your phone at qpython\lib\python3.6\site-packages. This provides the necessary libraries so that python can encode NMEA sentences. If you haven't run any scripts or installed any packages with "pip install" yet, you will not have any of these folders. You will have to create the folders called “lib” and “python3.6” and “site-packages” to create the following folder structure: \lib\python3.6\site-packages and place pynmea2 in site-packages.
 It should look like this:
 
@@ -44,6 +44,8 @@ It should look like this:
 
 Pynmea2 is taken from https://github.com/Knio/pynmea2 with some FLARM specific additions.
 
+
+### Step 4
 Unplug your android phone from the computer.
 
 Power on the Stratux device
@@ -53,6 +55,7 @@ Connect your android phone to the Stratux wifi network
 Open a browser and go to 192.168.10.1 the Stratux home page and verify it is receiving 1090 or 978 traffic information and there is a valid GPS fix. The python script cannot pass traffic to XCSoar when it does not have any traffic to pass on.
 
 
+### Step 5
 Open QPython 3L, tap “Programs” then tap “GDL90toNMEAforStratuxAHRS_TrafficWarning” then tap “Run”. QPython3L will run the script and display the python console.
 
 
