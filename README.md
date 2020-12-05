@@ -72,15 +72,18 @@ Start XCSoar and configure devices (config > devices). Select a device and press
 
 
 
-If the device says CONNECTED everything is connected properly but there is no traffic data to display.   
+If the device says CONNECTED FLARM, everything is connected properly. 
   ![](images/image8.png)
 
 If you want, you can see the traffic data in NMEA coming in by pressing MONITOR to see the PFLAU and PFLAA sentences. PFLAU is the heartbeat with PFLAA containing traffic data.  
   ![](images/image9.png)
 
 
-Close devices. Traffic should be displayed on XCSoar’s map page. If you zoom out too far all traffic icons are decluttered.
+Close devices.  
+Traffic should be displayed on XCSoar’s map page. If you zoom out too far all traffic icons are decluttered.
 
+
+## Troubleshooting
 If you press MONITOR and do not see PFLAU, something has gone wrong:
 Check to see that FLARM on UDP port 10110 is a device in XCSoar and is enabled. If it says “No data” instead of “Connected”, check to see if the script is running.
 Check QPython 3L to verify the script is still running and has not encountered an error
@@ -90,7 +93,7 @@ There is an error that occurs with the script on startup sometimes, where traffi
 
 
 
-Other stuff:
+## Other stuff
 XCSoar has a “FLARM Radar” (config > system > gauges > FLARM, other). Set FLARM radar to OFF. When ON, it displays a radar type view of traffic, this would be useful except its displayed ALL THE TIME when traffic is displayed. I’ve put in a feature request to only display the FLARM radar when traffic targets are within 2km but that has not been addressed (like accepting GDL90).
 
 This python script should work with and without the optional AHRS installed. GPS altitude is used for relatives so that’s always wiggling around and the relative climb of other targets are shown sometimes. With an AHRS it uses baro altitude which is much more steady.
