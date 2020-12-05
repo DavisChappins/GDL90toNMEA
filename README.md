@@ -35,6 +35,7 @@ https://play.google.com/store/apps/details?id=org.qpython.qpy3&hl=en_US&gl=US
 
 Connect your android phone to a computer via USB and navigate to your phone as a USB drive then qpython\scripts3. Place GDL90toNMEAforStratuxAHRS_TrafficWarning.py here. This is the script that you’ll run.
 It should look like this:
+![](images/image10.png)
 
 
 With the USB still connected, download the pynmea2 folder and unzip it. Place the entire pynmea2 folder onto your phone at qpython\lib\python3.6\site-packages. This provides the necessary libraries so that python can encode NMEA sentences. If you do not see the QPython folder, you may need to run a script within the QPython 3L application first. On my phone there are two “site-packages” folders with the same name. Not knowing which does what I put the pynmea2 folder in both. You may not have two.
