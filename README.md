@@ -72,11 +72,11 @@ Start XCSoar and configure devices (config > devices). Select a device and press
 
 
 
-If the device says CONNECTED everything is connected properly but there is no traffic data to display. 
+If the device says CONNECTED everything is connected properly but there is no traffic data to display.   
+  ![](images/image8.png)
 
-
-If you want, you can see the traffic data in NMEA coming in by pressing MONITOR to see the PFLAU and PFLAA sentences. PFLAU is the heartbeat with PFLAA containing traffic data.
-
+If you want, you can see the traffic data in NMEA coming in by pressing MONITOR to see the PFLAU and PFLAA sentences. PFLAU is the heartbeat with PFLAA containing traffic data.  
+  ![](images/image9.png)
 
 
 Close devices. Traffic should be displayed on XCSoar’s map page. If you zoom out too far all traffic icons are decluttered.
