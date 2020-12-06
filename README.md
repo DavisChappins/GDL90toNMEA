@@ -91,7 +91,6 @@ Check to see that FLARM on UDP port 10110 is a device in XCSoar and is enabled. 
 Check QPython 3L to verify the script is still running and has not encountered an error  
 Check the android wifi settings to verify connection to the Stratux wifi network  
 Check Stratux at 192.168.10.1 in a browser to verify the Stratux box is operating correctly  
-There is an error that occurs with the script on startup sometimes, where traffic is detected before own ship altitude. If this occurs click on the x in the top left of the python console then close it, and re-run the script.  
 
 
 
