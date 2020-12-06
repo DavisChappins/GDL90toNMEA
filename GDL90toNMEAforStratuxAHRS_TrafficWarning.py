@@ -1,3 +1,7 @@
+### This script translates traffic from GDL90 to NMEA ###
+# Allowing you to connect a Stratux to XCSoar, listen to UDP port 10110
+
+
 import socket
 import json
 import binascii
@@ -64,6 +68,13 @@ PFLAA_counter = 0
 PFLAU_counter = 0
 
 droid = androidhelper.Android()
+
+ownshipGPS = GPSAlt('0000')
+ownshipGPS.gps_alt = 0
+
+ownship = Traffic('000000','000','000','00','000000','000000','00',0)
+ownship.latitude = 0
+ownship.longitude = 0
 
 
 
@@ -254,6 +265,8 @@ while True:
                     droid.ttsSpeak("feet below")
                 
                 print('Traffic alert', traffic_list[y].address, 'at', round(traffic_list[y].relativeDistance * .00055,1), 'miles', int(round(traffic_list[y].relativeVertical * 3.28,-2)), 'feet')
+                print('Ownship heading', ownship.heading)
+                print('Traffic bearing', traffic_list[y].relativeBearing_aircraftRef / 30)
                 
                 traffic_alert_counter = 0
 
