@@ -216,7 +216,7 @@ while True:
 
         #add new_traffic to the traffic_list       
 
-        if new_traffic.relativeDistance < 40000: #set to 40km for flying around
+        if new_traffic.relativeDistance < 60000 and new_traffic.altitude < 18000: #set to 60km for flying around and 18000m altitude resolves fff altitude errors
 
             seen = False
         
