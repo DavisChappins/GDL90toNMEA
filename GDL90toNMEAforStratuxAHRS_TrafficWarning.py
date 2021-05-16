@@ -191,9 +191,9 @@ while True:
         new_traffic.relativeBearing = (new_traffic.initialBearing + 360 ) % 360
         new_traffic.relativeBearing_aircraftRef = (new_traffic.relativeBearing - ownship.heading) % 360
         
-        if abs(new_traffic.relativeVertical) < 200: #if within 1000 feet vertical
+        if abs(new_traffic.relativeVertical) < 200 and new_traffic.relativeDistance < 6000: #if within 1000 feet vertical and within 6km
             new_traffic.alarmLevel = 2
-        elif abs(new_traffic.relativeVertical) < 500: #if within 2000 feet vertical
+        elif abs(new_traffic.relativeVertical) < 500 and new_traffic.relativeDistance < 8000: #if within 2000 feet vertical and within 8km
             new_traffic.alarmLevel = 1
         else:
             new_traffic.alarmLevel = 0
